@@ -1,0 +1,48 @@
+/* ---------- Dark Mode ---------- */
+body.dark {
+  background: #111827;
+  color: #f9fafb;
+}
+
+body.dark .card {
+  background: #1f2937;
+  color: #f9fafb;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+body.dark .input {
+  background: #111827;
+  border: 1px solid #374151;
+  color: #f9fafb;
+}
+
+body.dark .input:focus {
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.4);
+}
+
+body.dark .table th {
+  background: #374151;
+  color: #f9fafb;
+}
+
+body.dark .table td {
+  border-color: #374151;
+}
+
+body.dark .badge {
+  background: #374151;
+  color: #f9fafb;
+}
+
+.button.toggle {
+  margin-left: auto;
+  background: transparent;
+  color: inherit;
+  border: 1px solid #6b7280;
+}
+
+.button.toggle:hover {
+  background: #2563eb;
+  color: #fff;
+}
